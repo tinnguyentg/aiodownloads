@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aiodownloads"
+version = "0.3.0"
+description = "Asynchronous downloads"
+authors = ["tinnguyen121221 <tinnguyen121221@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/tinnguyentg/aiodownloads"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = 'black'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
