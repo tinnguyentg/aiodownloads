@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aiodownloads"
-version = "0.3.0"
+version = "0.1.0"
 description = "Asynchronous downloads"
 authors = ["tinnguyen121221 <tinnguyen121221@gmail.com>"]
 license = "MIT"
