@@ -2,6 +2,12 @@
 
 Asynchronous downloads
 
+## Installation
+
+```
+pip install aiodownloads
+```
+
 ## Usage
 
 Inherit `aiodownloads.Downloader` then override handle_success, handle_fail methods
