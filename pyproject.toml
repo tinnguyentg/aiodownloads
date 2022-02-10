@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aiodownloads"
-version = "0.1.0"
+version = "0.2.0"
 description = "Asynchronous downloads"
 authors = ["tinnguyen121221 <tinnguyen121221@gmail.com>"]
 license = "MIT"
@@ -9,6 +9,7 @@ repository = "https://github.com/tinnguyentg/aiodownloads"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+aiohttp = "^3.8.1"
 
 [tool.poetry.dev-dependencies]
 
